@@ -8,6 +8,20 @@ import {
 import { motion } from 'framer-motion';
 
 function StockReport({ filters, setFilters, chartConfigs, renderTable }) {
+  // Add null check for chartConfigs
+  if (!chartConfigs || !chartConfigs.stock) {
+    return (
+      <motion.div 
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        className="card card-bordered bg-base-200 shadow-lg p-4 sm:p-6"
+      >
+        <div>Loading...</div>
+      </motion.div>
+    );
+  }
+
   return (
     <motion.div 
       initial={{ opacity: 0, y: 20 }}
