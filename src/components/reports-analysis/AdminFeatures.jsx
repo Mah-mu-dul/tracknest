@@ -172,6 +172,7 @@ function AdminFeatures() {
         expiryDate: "2024-12-31",
         status: { text: "Out of Stock", class: "badge-error" }
       }
+      
       // ... more stock rows
     ]
   };
