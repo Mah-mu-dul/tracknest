@@ -250,6 +250,7 @@ function AdminFeatures() {
           }`}
           onClick={() => setActiveTab("employee")}
         >
+            
           <span className="md:hidden"><FaUsers /></span>
           <span className="hidden md:inline">Employee Performance</span>
           <span className="md:hidden">Employee</span>
