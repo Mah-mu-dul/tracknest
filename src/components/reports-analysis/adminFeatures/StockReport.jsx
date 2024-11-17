@@ -8,8 +8,8 @@ import {
 import { motion } from 'framer-motion';
 
 function StockReport({ filters, setFilters, chartConfigs, renderTable }) {
-  // Add null check for chartConfigs
-  if (!chartConfigs || !chartConfigs.stock) {
+  // Add null check for chartConfigs and chartConfigs.stock
+  if (!chartConfigs?.stock) {
     return (
       <motion.div 
         initial={{ opacity: 0, y: 20 }}
