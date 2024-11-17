@@ -230,7 +230,9 @@ function AdminFeatures() {
           }`}
           onClick={() => setActiveTab("sales")}
         >
-          <FaChartLine /> Sales
+          <span className="md:hidden"><FaChartLine /></span>
+          <span className="hidden md:inline">Sales</span>
+          <span className="md:hidden">Sales</span>
         </a>
         <a
           className={`tab gap-2 ${
@@ -238,7 +240,9 @@ function AdminFeatures() {
           }`}
           onClick={() => setActiveTab("stock")}
         >
-          <FaBoxes /> Stock Levels
+          <span className="md:hidden"><FaBoxes /></span>
+          <span className="hidden md:inline">Stock Levels</span>
+          <span className="md:hidden">Stock</span>
         </a>
         <a
           className={`tab gap-2 ${
@@ -246,7 +250,9 @@ function AdminFeatures() {
           }`}
           onClick={() => setActiveTab("employee")}
         >
-          <FaUsers /> Employee Performance
+          <span className="md:hidden"><FaUsers /></span>
+          <span className="hidden md:inline">Employee Performance</span>
+          <span className="md:hidden">Employee</span>
         </a>
       </div>
 
