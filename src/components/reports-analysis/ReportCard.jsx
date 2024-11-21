@@ -10,7 +10,7 @@ function ReportCard({ title, description, type, onGenerate, isLoading }) {
   };
 
   const handleExport = (format) => {
-    console.log(`Exporting ${type} report as ${format}`);
+    // console.log(`Exporting ${type} report as ${format}`);
     // Implement export logic
   };
 

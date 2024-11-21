@@ -17,7 +17,7 @@ function ManagerFeatures() {
   ];
 
   const handleGenerateReport = async (type) => {
-    console.log(`Generating ${type} report`);
+    // console.log(`Generating ${type} report`);
     // Implement report generation logic
   };
 
