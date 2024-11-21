@@ -76,7 +76,7 @@ function Home() {
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
       {/* Header Section */}
       <div className="pt-16 pb-24 px-8 text-center">
-        <h1 className="text-6xl font-extrabold mb-6 bg-gradient-to-r from-teal-600 to-blue-600 text-transparent bg-clip-text">
+        <h1 className="text-5xl font-extrabold mb-6 bg-gradient-to-r from-teal-600 to-blue-600 text-transparent bg-clip-text pb-5">
           Your Inventory Management Hub Awaits
         </h1>
         <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
